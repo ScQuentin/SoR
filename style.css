@@ -1,9 +1,14 @@
-@font-face {
+/* @font-face {
     font-family: roboto;
     src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-  }
+    src: local(font name), url("font_name.ttf");
+  } */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
-    font-family: roboto;
+    font-family: Roboto;
+}
+body{
+    font-family: Roboto;
 }
 /* reset */
 *,
